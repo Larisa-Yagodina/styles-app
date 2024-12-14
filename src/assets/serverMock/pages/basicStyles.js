@@ -1,18 +1,18 @@
-import businessCasual from "../../assets/images/basic_styles/business-casual.JPG";
-import dandy from "../../assets/images/basic_styles/dandy.JPG";
-import grange from "../../assets/images/basic_styles/grange.JPG";
-import jockey from "../../assets/images/basic_styles/jockey.JPG";
-import preppy from "../../assets/images/basic_styles/preppy.JPG";
-import military from "../../assets/images/basic_styles/military.JPG";
-import safari from "../../assets/images/basic_styles/safary.JPG";
-import sea from "../../assets/images/basic_styles/sea-style.JPG";
-import smart from "../../assets/images/basic_styles/smart-casual.JPG";
-import sport from "../../assets/images/basic_styles/sport-chic.JPG";
+import businessCasual from "../../images/basic_styles/business-casual.JPG";
+import dandy from "../../images/basic_styles/dandy.JPG";
+import grange from "../../images/basic_styles/grange.JPG";
+import jockey from "../../images/basic_styles/jockey.JPG";
+import preppy from "../../images/basic_styles/preppy.JPG";
+import military from "../../images/basic_styles/military.JPG";
+import safari from "../../images/basic_styles/safary.JPG";
+import sea from "../../images/basic_styles/sea-style.JPG";
+import smart from "../../images/basic_styles/smart-casual.JPG";
+import sport from "../../images/basic_styles/sport-chic.JPG";
 
 
 export const basicStyles = {
     id: '2',
-    title: 'БАЗОВЫЕ СТИЛИ: ЧТО КРОМЕ CASUAL?',
+    title: 'Базовые стили: что кроме casual?',
         blocks: [
     {
         type: 'paragraph',

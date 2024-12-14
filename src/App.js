@@ -1,10 +1,12 @@
 import './App.css';
 import StylePageWrapper from "./components/stylePageWrapper/StylePageWrapper";
+import 'bootstrap/dist/css/bootstrap.css'
+import Header from "./components/header/Header";
 
 function App() {
     return (
         <div className="App">
-            <h1> Styles anatomy </h1>
+            <Header />
             <StylePageWrapper />
         </div>
     );

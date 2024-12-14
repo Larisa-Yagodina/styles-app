@@ -1,8 +1,7 @@
 import React from 'react';
+import ImageBlock from "./ImageBlock";
 
 const StylePage = ({stylePageItem}) => {
-
-
 
 
     return (
@@ -26,9 +25,7 @@ const StylePage = ({stylePageItem}) => {
                 }
                 if (block.type === 'photo') {
                     return (
-                        <div className='imageWrapper'>
-                            {block.content.map(el => <img src={el} alt="style"/>)}
-                        </div>
+                        <ImageBlock block={block} />
                     )
                 }
                 return null
