@@ -56,13 +56,13 @@ function Menu() {
 
             <Dropdown nav isOpen={dropdown3Open} toggle={toggle3}>
                 <DropdownToggle nav caret>
-                    Nonbasic Styles
+                    Other Styles
                 </DropdownToggle>
                 <DropdownMenu>
                     <DropdownItem>Boho</DropdownItem>
                     <DropdownItem>Minimalism</DropdownItem>
                     <DropdownItem>Conceptualism</DropdownItem>
-
+                    <DropdownItem>Feminine</DropdownItem>
                 </DropdownMenu>
             </Dropdown>
             </div>
