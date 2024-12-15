@@ -4,6 +4,12 @@ import ImageBlock from "./ImageBlock";
 const StylePage = ({stylePageItem}) => {
 
 
+    if (!stylePageItem) {
+        return (
+            <div>Content will be soon</div>
+        )
+    }
+
     return (
         <div>
             <h2>{stylePageItem.title}</h2>
