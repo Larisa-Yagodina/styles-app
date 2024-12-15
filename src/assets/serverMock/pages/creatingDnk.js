@@ -7,11 +7,10 @@ import dnk6 from "../../images/dnk/dnk6.JPG";
 import dnk7 from "../../images/dnk/dnk7.JPG";
 import dnk8 from "../../images/dnk/dnk8.JPG";
 import dnk9 from "../../images/dnk/dnk9.JPG";
-import {PAGES} from "../../../components/appLayout/AppLayout";
 
 export const creatingDnk = {
     id: '1',
-    segment: PAGES.creatingDNK,
+    segment: 'creatingDNK',
     title: 'Как создать ДНК собственного стиля',
     blocks: [
         {

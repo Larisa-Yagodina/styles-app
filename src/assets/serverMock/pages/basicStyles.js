@@ -8,12 +8,11 @@ import safari from "../../images/basic_styles/safary.JPG";
 import sea from "../../images/basic_styles/sea-style.JPG";
 import smart from "../../images/basic_styles/smart-casual.JPG";
 import sport from "../../images/basic_styles/sport-chic.JPG";
-import {PAGES} from "../../../components/appLayout/AppLayout";
 
 
 export const basicStyles = {
     id: '2',
-    segment: PAGES.basicStylesReview,
+    segment: 'basicStylesReview',
     title: 'Базовые стили: что кроме casual?',
         blocks: [
     {
