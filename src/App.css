@@ -21,11 +21,16 @@ h1 {
     justify-content: space-between;
 }
 
+.pageBox {
+    margin: 0 10%;
+}
+
+
 .imageWrapper {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-gap: 10px;
-    margin: 10px 20%;
+    margin: 10px 5%;
 }
 
 
@@ -41,4 +46,5 @@ img:hover {
     border: 1px solid lightgray;
     transform: scale(2.2);
 }
+
 

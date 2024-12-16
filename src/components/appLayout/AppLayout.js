@@ -1,7 +1,6 @@
 import * as React from 'react';
 import PropTypes from 'prop-types';
 import Box from '@mui/material/Box';
-import BarChartIcon from '@mui/icons-material/BarChart';
 import DescriptionIcon from '@mui/icons-material/Description';
 import { AppProvider } from '@toolpad/core/AppProvider';
 import { DashboardLayout } from '@toolpad/core/DashboardLayout';
@@ -9,6 +8,9 @@ import { useDemoRouter } from '@toolpad/core/internal';
 import StylePage from "../stylePage/StylePage";
 import {allStyles} from '../../assets/serverMock/allStyles';
 import {createTheme} from "@mui/material";
+import AutoGraphIcon from '@mui/icons-material/AutoGraph';
+import ListAltOutlinedIcon from '@mui/icons-material/ListAltOutlined';
+import ColorLensOutlinedIcon from '@mui/icons-material/ColorLensOutlined';
 
 export const PAGES = {
     creatingDNK: 'creatingDNK',
@@ -29,12 +31,12 @@ const NAVIGATION = [
         segment: 'creatingDNK',
         title: 'Creating DNK',
         // children: <StylePage stylePageItem={allStyles[0]} />,
-        // icon: <DashboardIcon />,
+        icon: <ColorLensOutlinedIcon />,
     },
     {
         segment: PAGES.basicStylesReview,
         title: 'Basic styles review',
-        // icon: <ShoppingCartIcon />,
+        icon: <ListAltOutlinedIcon />,
     },
     {
         kind: 'divider',
@@ -46,7 +48,7 @@ const NAVIGATION = [
     {
         segment: 'basicStyles',
         title: 'Basic styles',
-        icon: <BarChartIcon />,
+        icon: <AutoGraphIcon />,
         children: [
             {
                 segment: PAGES.sport,
@@ -63,7 +65,7 @@ const NAVIGATION = [
     {
         segment: 'otherStyles',
         title: 'Other styles',
-        icon: <BarChartIcon />,
+        icon: <AutoGraphIcon />,
         children: [
             {
                 segment: PAGES.boho,
@@ -112,7 +114,7 @@ function DemoPageContent({ pathname }) {
             { pathname !== '/dashboard' &&
                 <StylePage stylePageItem={allStyles.find(el => `/` + el.segment === pathname)} />
             }
-            {/*<Typography> There will be a content {pathname} </Typography>*/}
+            {/*<div> There will be a content {pathname} </div>*/}
         </Box>
     );
 }

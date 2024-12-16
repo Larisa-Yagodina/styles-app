@@ -1,4 +1,5 @@
 import React from 'react';
+// import {ImageGallery} from "./ImageGallery";
 import ImageBlock from "./ImageBlock";
 
 const StylePage = ({stylePageItem}) => {
@@ -11,7 +12,7 @@ const StylePage = ({stylePageItem}) => {
     }
 
     return (
-        <div>
+        <div className='pageBox'>
             <h2>{stylePageItem.title}</h2>
 
             {stylePageItem.blocks.map(block => {
@@ -31,7 +32,10 @@ const StylePage = ({stylePageItem}) => {
                 }
                 if (block.type === 'photo') {
                     return (
-                        <ImageBlock block={block} />
+                        <div>
+                            {/*<ImageGallery/>*/}
+                            <ImageBlock block={block}/>
+                        </div>
                     )
                 }
                 return null
