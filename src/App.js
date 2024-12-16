@@ -16,7 +16,7 @@ function App() {
         } else {
             dispatch(modalActions.setAuth())
         }
-    }, [])
+    }, [dispatch, isAuth])
 
     return (
             <div>
