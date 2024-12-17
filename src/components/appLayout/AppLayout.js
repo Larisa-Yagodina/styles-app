@@ -1,16 +1,19 @@
 import * as React from 'react';
 import PropTypes from 'prop-types';
-import Box from '@mui/material/Box';
 import DescriptionIcon from '@mui/icons-material/Description';
-import { AppProvider } from '@toolpad/core/AppProvider';
-import { DashboardLayout } from '@toolpad/core/DashboardLayout';
-import { useDemoRouter } from '@toolpad/core/internal';
-import StylePage from "../stylePage/StylePage";
-import {allStyles} from '../../assets/serverMock/allStyles';
+import {AppProvider} from '@toolpad/core/AppProvider';
+import {DashboardLayout} from '@toolpad/core/DashboardLayout';
+import {useDemoRouter} from '@toolpad/core/internal';
 import {createTheme} from "@mui/material";
 import AutoGraphIcon from '@mui/icons-material/AutoGraph';
 import ListAltOutlinedIcon from '@mui/icons-material/ListAltOutlined';
 import ColorLensOutlinedIcon from '@mui/icons-material/ColorLensOutlined';
+import image1 from '../../assets/images/icon-1.png'
+import {useDispatch, useSelector} from "react-redux";
+import {modalActions} from "../../redux/reduces";
+import {getIsAuth} from "../../redux/selectors";
+import {PageContent} from "./PageContent";
+import {MODAL_TYPES} from "../../ui/modalWindow/ModalWindow";
 
 export const PAGES = {
     creatingDNK: 'creatingDNK',
@@ -31,12 +34,12 @@ const NAVIGATION = [
         segment: 'creatingDNK',
         title: 'Creating DNK',
         // children: <StylePage stylePageItem={allStyles[0]} />,
-        icon: <ColorLensOutlinedIcon />,
+        icon: <ColorLensOutlinedIcon/>,
     },
     {
         segment: PAGES.basicStylesReview,
         title: 'Basic styles review',
-        icon: <ListAltOutlinedIcon />,
+        icon: <ListAltOutlinedIcon/>,
     },
     {
         kind: 'divider',
@@ -48,34 +51,34 @@ const NAVIGATION = [
     {
         segment: 'basicStyles',
         title: 'Basic styles',
-        icon: <AutoGraphIcon />,
+        icon: <AutoGraphIcon/>,
         children: [
             {
                 segment: PAGES.sport,
                 title: 'Sport chic',
-                icon: <DescriptionIcon />,
+                icon: <DescriptionIcon/>,
             },
             {
                 segment: PAGES.grange,
                 title: 'Grange',
-                icon: <DescriptionIcon />,
+                icon: <DescriptionIcon/>,
             },
         ],
     },
     {
         segment: 'otherStyles',
         title: 'Other styles',
-        icon: <AutoGraphIcon />,
+        icon: <AutoGraphIcon/>,
         children: [
             {
                 segment: PAGES.boho,
                 title: 'Boho',
-                icon: <DescriptionIcon />,
+                icon: <DescriptionIcon/>,
             },
             {
                 segment: PAGES.minimalism,
                 title: 'Minimalism',
-                icon: <DescriptionIcon />,
+                icon: <DescriptionIcon/>,
             },
         ],
     },
@@ -85,7 +88,7 @@ const themes = createTheme({
     cssVariables: {
         colorSchemeSelector: 'data-toolpad-color-scheme',
     },
-    colorSchemes: { light: true, dark: true },
+    colorSchemes: {light: true, dark: true},
     breakpoints: {
         values: {
             xs: 0,
@@ -97,46 +100,53 @@ const themes = createTheme({
     },
 });
 
-function DemoPageContent({ pathname }) {
-
-    console.log('Pathname - ' +  pathname)
-
-    return (
-        <Box
-            sx={{
-                py: 4,
-                display: 'flex',
-                flexDirection: 'column',
-                alignItems: 'center',
-                textAlign: 'center',
-            }}
-        >
-            { pathname !== '/dashboard' &&
-                <StylePage stylePageItem={allStyles.find(el => `/` + el.segment === pathname)} />
-            }
-            {/*<div> There will be a content {pathname} </div>*/}
-        </Box>
-    );
-}
-
-DemoPageContent.propTypes = {
+PageContent.propTypes = {
     pathname: PropTypes.string.isRequired,
 };
 
 function DashboardLayoutBasic() {
 
-    const router = useDemoRouter('/dashboard');
+    const router = useDemoRouter('/main');
+    const dispatch = useDispatch();
+    const isAuth = useSelector(getIsAuth)
+    const user = isAuth
+        ? {image: "https://img.freepik.com/premium-vector/girl-with-laptop-vector_951778-16402.jpg?size=626&ext=jpg&ga=GA1.1.1027489879.1705504765&semt=ais"}
+        : null;
+
+    const signIn = () => {
+        dispatch(modalActions.openModal({type: MODAL_TYPES.AUTH}))
+    }
+    const signOut = () => {
+        localStorage.removeItem('isAuth');
+        dispatch(modalActions.signOut())
+    }
 
     return (
         <AppProvider
             navigation={NAVIGATION}
             router={router}
             theme={themes}
-            branding={{title: 'Styles Anatomy'}}
+            branding={
+                {
+                    title: 'Styles Anatomy',
+                    logo: <img className='logo_image' src={image1} alt="main"/>
+                }
+            }
+            authentication={
+                {
+                    signIn,
+                    signOut,
+                }
+            }
+            session={{
+                user,
+            }}
+
         >
             <DashboardLayout>
-                <DemoPageContent pathname={router.pathname}  />
+                <PageContent pathname={router.pathname}/>
             </DashboardLayout>
+
         </AppProvider>
         // preview-end
     );

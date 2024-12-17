@@ -1,8 +1,9 @@
 import React from 'react';
-// import {ImageGallery} from "./ImageGallery";
 import ImageBlock from "./ImageBlock";
 
+
 const StylePage = ({stylePageItem}) => {
+
 
 
     if (!stylePageItem) {
@@ -33,7 +34,6 @@ const StylePage = ({stylePageItem}) => {
                 if (block.type === 'photo') {
                     return (
                         <div>
-                            {/*<ImageGallery/>*/}
                             <ImageBlock block={block}/>
                         </div>
                     )

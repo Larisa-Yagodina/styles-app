@@ -1,28 +1,33 @@
 import { createSlice } from '@reduxjs/toolkit'
+import {MODAL_TYPES} from "../ui/modalWindow/ModalWindow";
 
 
 const initialState = {
     isOpenModal: false,
     images: [],
+    imageIndex: null,
     isAuth: false,
+    type: null,
 }
 
 export const modalWindowSlice = createSlice({
     name: 'modalWindow',
     initialState,
     reducers: {
-        openImagesModal: (state, action) => {
+
+        openModal: (state, action) => {
             state.isOpenModal = true;
-            state.images = action.images;
-        },
-        openAuthModal: (state) => {
-            state.isOpenModal = true;
-            state.images = 'action.images';
+            state.type = action.payload.type;
+            state.images = action.payload.type === MODAL_TYPES.IMAGES ? action.payload.images : [];
+            state.imageIndex = action.payload.type === MODAL_TYPES.IMAGES ? action.payload.imageIndex : null;
 
         },
         setAuth: (state) => {
             state.isAuth = true;
             state.isOpenModal = false;
+        },
+        signOut: (state) => {
+            state.isAuth = false;
         },
         closeModal: (state) => {
             state.images = [];

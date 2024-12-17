@@ -33,18 +33,46 @@ h1 {
     margin: 10px 5%;
 }
 
-
-
-img {
+.styles-pictures {
     width: 100%;
     transition: 1s;
 }
 
-img:hover {
-    padding: 5px;
-    background-color: white;
-    border: 1px solid lightgray;
-    transform: scale(2.2);
+/*.styles-pictures:hover {*/
+/*    padding: 5px;*/
+/*    background-color: white;*/
+/*    border: 1px solid lightgray;*/
+/*    transform: scale(2.2);*/
+/*}*/
+
+.logo_image {
+    border-radius: 50%;
 }
+
+@media (max-width: 420px) {
+    .image_in_modal {
+        height: 350px;
+    }
+}
+
+@media (min-width: 421px) and (max-width: 520px) {
+    .image_in_modal {
+        height: 390px;
+    }
+}
+
+@media (min-width: 521px) and (max-width: 620px) {
+    .image_in_modal {
+        height: 500px;
+    }
+}
+
+@media (min-width: 621px) {
+    .image_in_modal {
+        height: 600px;
+    }
+}
+
+
 
 

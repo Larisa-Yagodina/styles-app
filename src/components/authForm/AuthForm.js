@@ -15,15 +15,23 @@ const AuthForm = () => {
     const AUTH_PASSWORD = 'magic';
     const dispatch = useDispatch();
 
+    const onChange = (e) => {
+      setInputValue(e.target.value)
+        if (AUTH_PASSWORD === e.target.value) {
+            setErrorMessage('')
+            setError(false)
+        } else {
+            setErrorMessage('Wrong password')
+            setError(true)
+        }
+    }
+
     const onSubmit = () => {
         if (AUTH_PASSWORD === inputValue) {
             dispatch(modalActions.setAuth());
             localStorage.setItem('isAuth', JSON.stringify(true));
             setErrorMessage('')
             setError(false)
-        } else {
-            setErrorMessage('Wrong password')
-            setError(true)
         }
     }
 
@@ -47,7 +55,7 @@ const AuthForm = () => {
                     defaultValue=""
                     helperText={errorMessage}
                     value={inputValue}
-                    onChange={(e) => setInputValue(e.target.value)}
+                    onChange={(e) => onChange(e)}
                 />
                 <br/>
                 <br/>
