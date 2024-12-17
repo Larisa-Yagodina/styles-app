@@ -21,20 +21,20 @@ h1 {
     justify-content: space-between;
 }
 
-.pageBox {
-    margin: 0 10%;
-}
-
 
 .imageWrapper {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-gap: 10px;
-    margin: 10px 5%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
 }
 
 .styles-pictures {
-    width: 100%;
+    border: 3px solid whitesmoke;
+    border-radius: 2px;
+    margin: 0 5px 5px 5px;
+    width: 150px;
     transition: 1s;
 }
 
@@ -49,27 +49,54 @@ h1 {
     border-radius: 50%;
 }
 
-@media (max-width: 420px) {
-    .image_in_modal {
-        height: 350px;
-    }
+.auth_form {
+    margin: 30px 70px;
+    text-align: center;
 }
 
-@media (min-width: 421px) and (max-width: 520px) {
+.image_in_modal {
+    transition: 1s;
+}
+
+@media (max-width: 370px) {
     .image_in_modal {
         height: 390px;
     }
 }
 
-@media (min-width: 521px) and (max-width: 620px) {
+@media (min-width: 371px) and (max-width: 420px) {
     .image_in_modal {
-        height: 500px;
+        height: 450px;
     }
 }
 
-@media (min-width: 621px) {
+@media (min-width: 421px) and (max-width: 470px) {
     .image_in_modal {
-        height: 600px;
+        height: 450px;
+    }
+}
+
+@media (min-width: 471px) and (max-width: 550px) {
+    .image_in_modal {
+        height: 580px;
+    }
+}
+
+@media (min-width: 551px) and (max-width: 620px) {
+    .image_in_modal {
+        height: 620px;
+    }
+}
+
+@media (min-width: 621px) and (max-width: 820px) {
+    .image_in_modal {
+        height: 650px;
+    }
+}
+
+@media (min-width: 821px) {
+    .image_in_modal {
+        height: 680px;
     }
 }
 

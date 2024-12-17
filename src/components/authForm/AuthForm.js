@@ -43,7 +43,7 @@ const AuthForm = () => {
             autoComplete="off"
         >
 
-            <div>
+            <div className='auth_form'>
                 <Typography id="modal-modal-title" variant="h6" component="h2">
                     Your password, please.
                 </Typography>
