@@ -17,6 +17,7 @@ export const sportChic = {
     blocks: [
         {
             type: 'photo',
+            title: 'Нюансы',
             content: [
                 sport1,
                 sport2,

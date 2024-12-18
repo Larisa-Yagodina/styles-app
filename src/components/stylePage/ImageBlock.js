@@ -13,6 +13,7 @@ const ImageBlock = ({block}) => {
 
     return (
         <div>
+            <h3>{block.title}</h3>
             <div className='imageWrapper'>
                 {block.content.map((el, index) => (
                     <div onClick={() => onOpenImagesViewer(index)}>

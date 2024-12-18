@@ -11,6 +11,25 @@ import grange10 from "../../images/grange/grange10.JPG";
 import grange11 from "../../images/grange/grange11.JPG";
 import grange12 from "../../images/grange/grange12.JPG";
 
+import grange00 from "../../images/grange/extra/grange.jpeg";
+import grange01 from "../../images/grange/extra/grange1.jpeg";
+import grange02 from "../../images/grange/extra/grange2.jpeg";
+import grange03 from "../../images/grange/extra/grange3.jpeg";
+import grange04 from "../../images/grange/extra/grange4.jpeg";
+import grange05 from "../../images/grange/extra/grange5.jpeg";
+import grange06 from "../../images/grange/extra/grange6.jpeg";
+import grange07 from "../../images/grange/extra/grange7.jpeg";
+import grange08 from "../../images/grange/extra/grange8.jpeg";
+import grange09 from "../../images/grange/extra/grange9.jpeg";
+import grange010 from "../../images/grange/extra/grange10.jpeg";
+import grange011 from "../../images/grange/extra/grange11.jpeg";
+import grange012 from "../../images/grange/extra/grange12.jpeg";
+import grange013 from "../../images/grange/extra/grange13.jpeg";
+import grange014 from "../../images/grange/extra/grange14.jpeg";
+import grange015 from "../../images/grange/extra/grange15.jpeg";
+import grange016 from "../../images/grange/extra/grange16.jpeg";
+
+
 export const grange = {
     id: '4',
     segment: 'basicStyles/grange',
@@ -18,6 +37,7 @@ export const grange = {
     blocks: [
         {
             type: 'photo',
+            title: 'Нюансы',
             content: [
                 grange1,
                 grange2,
@@ -31,6 +51,29 @@ export const grange = {
                 grange10,
                 grange12,
                 grange11,
+            ]
+        },
+        {
+            type: 'photo',
+            title: 'Примеры',
+            content: [
+                grange02,
+                grange03,
+                grange04,
+                grange00,
+                grange01,
+                grange05,
+                grange06,
+                grange07,
+                grange08,
+                grange09,
+                grange010,
+                grange011,
+                grange012,
+                grange013,
+                grange014,
+                grange015,
+                grange016,
             ]
         }
     ],

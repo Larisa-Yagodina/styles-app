@@ -33,7 +33,7 @@ const StylePage = ({stylePageItem}) => {
                 }
                 if (block.type === 'photo') {
                     return (
-                        <div>
+                        <div className='photo-block'>
                             <ImageBlock block={block}/>
                         </div>
                     )
