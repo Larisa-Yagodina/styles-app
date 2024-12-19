@@ -38,12 +38,51 @@ h1 {
     transition: 1s;
 }
 
-/*.styles-pictures:hover {*/
-/*    padding: 5px;*/
-/*    background-color: white;*/
-/*    border: 1px solid lightgray;*/
-/*    transform: scale(2.2);*/
-/*}*/
+.images_view_wrapper {
+    position: relative;
+}
+
+.navigation_before {
+    background-color: rgba(208, 206, 206, 0.35);
+    position: absolute;
+    border-radius: 7px;
+    top: 0;
+    left: -3px;
+    bottom: 0;
+    border: none;
+    width: 24px;
+    padding: 0;
+    margin: 0;
+}
+
+.navigation_next {
+    background-color: rgba(208, 206, 206, 0.35);
+    position: absolute;
+    border-radius: 7px;
+    top: 22px;
+    right: -3px;
+    bottom: 0;
+    border: none;
+    width: 24px;
+    padding: 0;
+    margin: 0;
+}
+
+.close-btn {
+    position: absolute;
+    border-radius: 7px;
+    top: 0;
+    right: -3px;
+    width: 24px;
+    border: none;
+    padding: 0;
+    margin: 0;
+    background-color: rgba(208, 206, 206, 0.35);
+}
+
+.photo-block {
+    margin-bottom: 10px;
+}
 
 .logo_image {
     border-radius: 50%;
@@ -56,35 +95,36 @@ h1 {
 
 .image_in_modal {
     transition: 1s;
+    margin: 0 20px;
 }
 
-@media (max-width: 370px) {
+@media (max-width: 380px) {
     .image_in_modal {
-        height: 390px;
+        width: 3350px;
     }
 }
 
-@media (min-width: 371px) and (max-width: 420px) {
+@media (min-width: 381px) and (max-width: 410px) {
     .image_in_modal {
-        height: 450px;
+        width: 350px;
     }
 }
 
-@media (min-width: 421px) and (max-width: 470px) {
+@media (min-width: 411px) and (max-width: 440px) {
     .image_in_modal {
-        height: 450px;
+        width: 375px;
     }
 }
 
-@media (min-width: 471px) and (max-width: 550px) {
+@media (min-width: 441px) and (max-width: 550px) {
     .image_in_modal {
-        height: 580px;
+        height: 520px;
     }
 }
 
 @media (min-width: 551px) and (max-width: 620px) {
     .image_in_modal {
-        height: 620px;
+        height: 560px;
     }
 }
 

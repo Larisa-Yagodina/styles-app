@@ -39,9 +39,9 @@ export const grange = {
             type: 'photo',
             title: 'Нюансы',
             content: [
-                grange1,
                 grange2,
                 grange3,
+                grange1,
                 grange4,
                 grange5,
                 grange6,
@@ -57,9 +57,9 @@ export const grange = {
             type: 'photo',
             title: 'Примеры',
             content: [
-                grange02,
-                grange03,
                 grange04,
+                grange03,
+                grange02,
                 grange00,
                 grange01,
                 grange05,

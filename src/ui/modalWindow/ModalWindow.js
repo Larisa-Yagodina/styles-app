@@ -16,7 +16,7 @@ const style = {
     border: '2px solid lightgrey',
     borderRadius: '7px',
     boxShadow: 24,
-    p: 1,
+    p: 0.2,
 };
 
 export const MODAL_TYPES = {
