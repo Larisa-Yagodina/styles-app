@@ -29,6 +29,26 @@ import sport014 from "../../images/sport/extra/sport014.jpeg";
 import sport015 from "../../images/sport/extra/sport015.jpeg";
 import sport016 from "../../images/sport/extra/sport016.jpeg";
 import sport017 from "../../images/sport/extra/sport017.jpeg";
+import sport037 from "../../images/sport/extra/sport37.jpeg";
+import sport018 from "../../images/sport/extra/sport18.jpeg";
+import sport019 from "../../images/sport/extra/sport19.jpeg";
+import sport020 from "../../images/sport/extra/sport20.jpeg";
+import sport021 from "../../images/sport/extra/sport21.jpeg";
+import sport022 from "../../images/sport/extra/sport22.jpeg";
+import sport023 from "../../images/sport/extra/sport23.jpeg";
+import sport024 from "../../images/sport/extra/sport24.jpeg";
+import sport025 from "../../images/sport/extra/sport25.jpeg";
+import sport026 from "../../images/sport/extra/sport26.jpeg";
+import sport027 from "../../images/sport/extra/sport27.jpeg";
+import sport028 from "../../images/sport/extra/sport28.jpeg";
+import sport029 from "../../images/sport/extra/sport29.jpeg";
+import sport030 from "../../images/sport/extra/sport30.jpeg";
+import sport031 from "../../images/sport/extra/sport31.jpeg";
+import sport032 from "../../images/sport/extra/sport32.jpeg";
+import sport033 from "../../images/sport/extra/sport33.jpeg";
+import sport034 from "../../images/sport/extra/sport34.jpeg";
+import sport035 from "../../images/sport/extra/sport35.jpeg";
+import sport036 from "../../images/sport/extra/sport36.jpeg";
 
 export const sportChic = {
     id: '3',
@@ -75,6 +95,26 @@ export const sportChic = {
                 sport015,
                 sport016,
                 sport017,
+                sport018,
+                sport019,
+                sport020,
+                sport021,
+                sport022,
+                sport023,
+                sport024,
+                sport025,
+                sport026,
+                sport027,
+                sport028,
+                sport029,
+                sport030,
+                sport031,
+                sport032,
+                sport033,
+                sport034,
+                sport035,
+                sport036,
+                sport037,
             ]
         }
     ],

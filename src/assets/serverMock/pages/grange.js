@@ -28,6 +28,26 @@ import grange013 from "../../images/grange/extra/grange13.jpeg";
 import grange014 from "../../images/grange/extra/grange14.jpeg";
 import grange015 from "../../images/grange/extra/grange15.jpeg";
 import grange016 from "../../images/grange/extra/grange16.jpeg";
+import grange017 from "../../images/grange/extra/grange17.jpeg";
+import grange018 from "../../images/grange/extra/grange18.jpeg";
+import grange019 from "../../images/grange/extra/grange19.jpeg";
+import grange020 from "../../images/grange/extra/grange20.jpeg";
+import grange021 from "../../images/grange/extra/grange21.jpeg";
+import grange022 from "../../images/grange/extra/grange22.jpeg";
+import grange023 from "../../images/grange/extra/grange23.jpeg";
+import grange024 from "../../images/grange/extra/grange24.jpeg";
+import grange025 from "../../images/grange/extra/grange25.jpeg";
+import grange026 from "../../images/grange/extra/grange26.jpeg";
+import grange027 from "../../images/grange/extra/grange27.jpeg";
+import grange028 from "../../images/grange/extra/grange28.jpeg";
+import grange029 from "../../images/grange/extra/grange29.jpeg";
+import grange030 from "../../images/grange/extra/grange30.jpeg";
+import grange031 from "../../images/grange/extra/grange31.jpeg";
+import grange032 from "../../images/grange/extra/grange32.jpeg";
+import grange033 from "../../images/grange/extra/grange33.jpeg";
+import grange034 from "../../images/grange/extra/grange34.jpeg";
+import grange035 from "../../images/grange/extra/grange35.jpeg";
+import grange036 from "../../images/grange/extra/grange36.jpeg";
 
 
 export const grange = {
@@ -74,6 +94,26 @@ export const grange = {
                 grange014,
                 grange015,
                 grange016,
+                grange017,
+                grange018,
+                grange019,
+                grange020,
+                grange021,
+                grange022,
+                grange023,
+                grange024,
+                grange025,
+                grange026,
+                grange027,
+                grange028,
+                grange029,
+                grange030,
+                grange031,
+                grange032,
+                grange033,
+                grange034,
+                grange035,
+                grange036,
             ]
         }
     ],
