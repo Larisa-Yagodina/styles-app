@@ -51,7 +51,7 @@ import sport035 from "../../images/sport/extra/sport35.jpeg";
 import sport036 from "../../images/sport/extra/sport36.jpeg";
 
 export const sportChic = {
-    id: '3',
+    id: '6',
     segment: 'basicStyles/sport',
     title: 'Спорт-шик',
     blocks: [

@@ -20,6 +20,8 @@ export const PAGES = {
     basicStylesReview: 'basicStylesReview',
     sport: 'sport',
     grange: 'grange',
+    dandy: 'dandy',
+    jockey: 'jockey',
     boho: 'boho',
     minimalism: 'minimalism',
 }
@@ -61,6 +63,16 @@ const NAVIGATION = [
             {
                 segment: PAGES.grange,
                 title: 'Grange',
+                icon: <DescriptionIcon/>,
+            },
+            {
+                segment: PAGES.dandy,
+                title: 'Dandy',
+                icon: <DescriptionIcon/>,
+            },
+            {
+                segment: PAGES.jockey,
+                title: 'Jockey',
                 icon: <DescriptionIcon/>,
             },
         ],

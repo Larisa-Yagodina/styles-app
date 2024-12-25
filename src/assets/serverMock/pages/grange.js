@@ -51,9 +51,9 @@ import grange036 from "../../images/grange/extra/grange36.jpeg";
 
 
 export const grange = {
-    id: '4',
+    id: '3',
     segment: 'basicStyles/grange',
-    title: 'Стиль Гранж',
+    title: 'Стиль гранж',
     blocks: [
         {
             type: 'photo',
