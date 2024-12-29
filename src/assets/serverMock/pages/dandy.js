@@ -29,25 +29,29 @@ import dandy015 from "../../images/dandy/extra/dandy15.jpeg";
 import dandy016 from "../../images/dandy/extra/dandy16.jpeg";
 import dandy017 from "../../images/dandy/extra/dandy17.jpeg";
 import dandy018 from "../../images/dandy/extra/dandy18.jpeg";
-// import dandy019 from "../../images/dandy/extra/dandy19.jpeg";
-// import dandy020 from "../../images/dandy/extra/dandy20.jpeg";
-// import dandy021 from "../../images/dandy/extra/dandy21.jpeg";
-// import dandy022 from "../../images/dandy/extra/dandy22.jpeg";
-// import dandy023 from "../../images/dandy/extra/dandy23.jpeg";
-// import dandy024 from "../../images/dandy/extra/dandy24.jpeg";
-// import dandy025 from "../../images/dandy/extra/dandy25.jpeg";
-// import dandy026 from "../../images/dandy/extra/dandy26.jpeg";
-// import dandy027 from "../../images/dandy/extra/dandy27.jpeg";
-// import dandy028 from "../../images/dandy/extra/dandy28.jpeg";
-// import dandy029 from "../../images/dandy/extra/dandy29.jpeg";
-// import dandy030 from "../../images/dandy/extra/dandy30.jpeg";
-// import dandy031 from "../../images/dandy/extra/dandy31.jpeg";
-// import dandy032 from "../../images/dandy/extra/dandy32.jpeg";
-// import dandy033 from "../../images/dandy/extra/dandy33.jpeg";
-// import dandy034 from "../../images/dandy/extra/dandy34.jpeg";
-// import dandy035 from "../../images/dandy/extra/dandy35.jpeg";
-// import dandy036 from "../../images/dandy/extra/dandy36.jpeg";
-// import dandy037 from "../../images/dandy/extra/dandy37.jpeg";
+import dandy019 from "../../images/dandy/extra/dandy19.jpeg";
+import dandy020 from "../../images/dandy/extra/dandy20.jpeg";
+import dandy021 from "../../images/dandy/extra/dandy21.jpeg";
+import dandy022 from "../../images/dandy/extra/dandy22.jpeg";
+import dandy023 from "../../images/dandy/extra/dandy23.jpeg";
+import dandy024 from "../../images/dandy/extra/dandy24.jpeg";
+import dandy025 from "../../images/dandy/extra/dandy25.jpeg";
+import dandy026 from "../../images/dandy/extra/dandy26.jpeg";
+import dandy027 from "../../images/dandy/extra/dandy27.jpeg";
+import dandy028 from "../../images/dandy/extra/dandy28.jpeg";
+import dandy029 from "../../images/dandy/extra/dandy29.jpeg";
+import dandy030 from "../../images/dandy/extra/dandy30.jpeg";
+import dandy031 from "../../images/dandy/extra/dandy31.jpeg";
+import dandy032 from "../../images/dandy/extra/dandy32.jpeg";
+import dandy033 from "../../images/dandy/extra/dandy33.jpeg";
+import dandy034 from "../../images/dandy/extra/dandy34.jpeg";
+import dandy035 from "../../images/dandy/extra/dandy35.jpeg";
+import dandy036 from "../../images/dandy/extra/dandy36.jpeg";
+import dandy037 from "../../images/dandy/extra/dandy37.jpeg";
+import dandy038 from "../../images/dandy/extra/dandy38.jpeg";
+import dandy039 from "../../images/dandy/extra/dandy39.jpeg";
+import dandy040 from "../../images/dandy/extra/dandy40.jpeg";
+import dandy041 from "../../images/dandy/extra/dandy41.jpeg";
 
 export const dandy = {
     id: '4',
@@ -94,25 +98,29 @@ export const dandy = {
                 dandy016,
                 dandy017,
                 dandy018,
-                // dandy019,
-                // dandy020,
-                // dandy021,
-                // dandy022,
-                // dandy023,
-                // dandy024,
-                // dandy025,
-                // dandy026,
-                // dandy027,
-                // dandy028,
-                // dandy029,
-                // dandy030,
-                // dandy031,
-                // dandy032,
-                // dandy033,
-                // dandy034,
-                // dandy035,
-                // dandy036,
-                // dandy037,
+                dandy019,
+                dandy020,
+                dandy021,
+                dandy022,
+                dandy023,
+                dandy024,
+                dandy025,
+                dandy026,
+                dandy027,
+                dandy028,
+                dandy029,
+                dandy030,
+                dandy031,
+                dandy032,
+                dandy033,
+                dandy034,
+                dandy035,
+                dandy036,
+                dandy037,
+                dandy038,
+                dandy039,
+                dandy040,
+                dandy041,
             ]
         }
     ],

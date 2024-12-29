@@ -26,28 +26,27 @@ import jockey012 from "../../images/jockey/extra/jockey12.jpeg";
 import jockey013 from "../../images/jockey/extra/jockey13.jpeg";
 import jockey014 from "../../images/jockey/extra/jockey14.jpeg";
 import jockey015 from "../../images/jockey/extra/jockey15.jpeg";
-// import jockey016 from "../../images/jockey/extra/jockey16.jpeg";
-// import jockey017 from "../../images/jockey/extra/jockey17.jpeg";
-// import jockey018 from "../../images/jockey/extra/jockey18.jpeg";
-// import jockey019 from "../../images/jockey/extra/jockey19.jpeg";
-// import jockey020 from "../../images/jockey/extra/jockey20.jpeg";
-// import jockey021 from "../../images/jockey/extra/jockey21.jpeg";
-// import jockey022 from "../../images/jockey/extra/jockey22.jpeg";
-// import jockey023 from "../../images/jockey/extra/jockey23.jpeg";
-// import jockey024 from "../../images/jockey/extra/jockey24.jpeg";
-// import jockey025 from "../../images/jockey/extra/jockey25.jpeg";
-// import jockey026 from "../../images/jockey/extra/jockey26.jpeg";
-// import jockey027 from "../../images/jockey/extra/jockey27.jpeg";
-// import jockey028 from "../../images/jockey/extra/jockey28.jpeg";
-// import jockey029 from "../../images/jockey/extra/jockey29.jpeg";
-// import jockey030 from "../../images/jockey/extra/jockey30.jpeg";
-// import jockey031 from "../../images/jockey/extra/jockey31.jpeg";
-// import jockey032 from "../../images/jockey/extra/jockey32.jpeg";
-// import jockey033 from "../../images/jockey/extra/jockey33.jpeg";
-// import jockey034 from "../../images/jockey/extra/jockey34.jpeg";
-// import jockey035 from "../../images/jockey/extra/jockey35.jpeg";
-// import jockey036 from "../../images/jockey/extra/jockey36.jpeg";
-// import jockey037 from "../../images/jockey/extra/jockey37.jpeg";
+import jockey016 from "../../images/jockey/extra/jockey16.jpeg";
+import jockey017 from "../../images/jockey/extra/jockey17.jpeg";
+import jockey018 from "../../images/jockey/extra/jockey18.jpeg";
+import jockey019 from "../../images/jockey/extra/jockey19.jpeg";
+import jockey020 from "../../images/jockey/extra/jockey20.jpeg";
+import jockey021 from "../../images/jockey/extra/jockey21.jpeg";
+import jockey022 from "../../images/jockey/extra/jockey22.jpeg";
+import jockey023 from "../../images/jockey/extra/jockey23.jpeg";
+import jockey024 from "../../images/jockey/extra/jockey24.jpeg";
+import jockey025 from "../../images/jockey/extra/jockey25.jpeg";
+import jockey026 from "../../images/jockey/extra/jockey26.jpeg";
+import jockey027 from "../../images/jockey/extra/jockey27.jpeg";
+import jockey028 from "../../images/jockey/extra/jockey28.jpeg";
+import jockey029 from "../../images/jockey/extra/jockey29.jpeg";
+import jockey030 from "../../images/jockey/extra/jockey30.jpeg";
+import jockey031 from "../../images/jockey/extra/jockey31.jpeg";
+import jockey032 from "../../images/jockey/extra/jockey32.jpeg";
+import jockey033 from "../../images/jockey/extra/jockey33.jpeg";
+import jockey034 from "../../images/jockey/extra/jockey34.jpeg";
+import jockey035 from "../../images/jockey/extra/jockey35.jpeg";
+import jockey036 from "../../images/jockey/extra/jockey36.jpeg";
 
 export const jockey = {
     id: '5',
@@ -91,28 +90,27 @@ export const jockey = {
                 jockey013,
                 jockey014,
                 jockey015,
-                // jockey016,
-                // jockey017,
-                // jockey018,
-                // jockey019,
-                // jockey020,
-                // jockey021,
-                // jockey022,
-                // jockey023,
-                // jockey024,
-                // jockey025,
-                // jockey026,
-                // jockey027,
-                // jockey028,
-                // jockey029,
-                // jockey030,
-                // jockey031,
-                // jockey032,
-                // jockey033,
-                // jockey034,
-                // jockey035,
-                // jockey036,
-                // jockey037,
+                jockey016,
+                jockey017,
+                jockey018,
+                jockey019,
+                jockey020,
+                jockey021,
+                jockey022,
+                jockey023,
+                jockey024,
+                jockey025,
+                jockey026,
+                jockey027,
+                jockey028,
+                jockey029,
+                jockey030,
+                jockey031,
+                jockey032,
+                jockey033,
+                jockey034,
+                jockey035,
+                jockey036,
             ]
         }
     ],
