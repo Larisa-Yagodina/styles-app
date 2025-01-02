@@ -1,5 +1,5 @@
 import React from 'react';
-import {allStyles} from "../../assets/serverMock/allStyles";
+import {allStyles} from "../../assets/pagesContent/allStyles";
 import StylePage from "../stylePage/StylePage";
 
 const StylePageWrapper = () => {

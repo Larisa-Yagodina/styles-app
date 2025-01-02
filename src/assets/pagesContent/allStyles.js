@@ -4,6 +4,8 @@ import {sportChic} from "./pages/sport";
 import {grange} from "./pages/grange";
 import {dandy} from "./pages/dandy";
 import {jockey} from "./pages/jockey";
+import {military} from "./pages/military";
+import {safari} from "./pages/safari";
 
 
 export const allStyles = [
@@ -13,4 +15,6 @@ export const allStyles = [
     grange,
     dandy,
     jockey,
+    military,
+    safari,
 ]

@@ -1,6 +1,6 @@
 import Box from "@mui/material/Box";
 import StylePage from "../stylePage/StylePage";
-import {allStyles} from "../../assets/serverMock/allStyles";
+import {allStyles} from "../../assets/pagesContent/allStyles";
 import * as React from "react";
 
 export function PageContent({pathname}) {
