@@ -23,30 +23,27 @@ import military09 from "../../images/military/extra/military9.jpeg";
 import military010 from "../../images/military/extra/military10.jpeg";
 import military011 from "../../images/military/extra/military11.jpeg";
 import military012 from "../../images/military/extra/military12.jpeg";
-// import military013 from "../../images/military/extra/military13.jpeg";
-// import military014 from "../../images/military/extra/military14.jpeg";
-// import military015 from "../../images/military/extra/military15.jpeg";
-// import military016 from "../../images/military/extra/military16.jpeg";
-// import military017 from "../../images/military/extra/military17.jpeg";
-// import military018 from "../../images/military/extra/military18.jpeg";
-// import military019 from "../../images/military/extra/military19.jpeg";
-// import military020 from "../../images/military/extra/military20.jpeg";
-// import military021 from "../../images/military/extra/military21.jpeg";
-// import military022 from "../../images/military/extra/military22.jpeg";
-// import military023 from "../../images/military/extra/military23.jpeg";
-// import military024 from "../../images/military/extra/military24.jpeg";
-// import military025 from "../../images/military/extra/military25.jpeg";
-// import military026 from "../../images/military/extra/military26.jpeg";
-// import military027 from "../../images/military/extra/military27.jpeg";
-// import military028 from "../../images/military/extra/military28.jpeg";
-// import military029 from "../../images/military/extra/military29.jpeg";
-// import military030 from "../../images/military/extra/military30.jpeg";
-// import military031 from "../../images/military/extra/military31.jpeg";
-// import military032 from "../../images/military/extra/military32.jpeg";
-// import military033 from "../../images/military/extra/military33.jpeg";
-// import military034 from "../../images/military/extra/military34.jpeg";
-// import military035 from "../../images/military/extra/military35.jpeg";
-// import military036 from "../../images/military/extra/military36.jpeg";
+import military013 from "../../images/military/extra/military13.jpeg";
+import military014 from "../../images/military/extra/military14.jpeg";
+import military015 from "../../images/military/extra/military15.jpeg";
+import military016 from "../../images/military/extra/military16.jpeg";
+import military017 from "../../images/military/extra/military17.jpeg";
+import military018 from "../../images/military/extra/military18.jpeg";
+import military019 from "../../images/military/extra/military19.jpeg";
+import military020 from "../../images/military/extra/military20.jpeg";
+import military021 from "../../images/military/extra/military21.jpeg";
+import military022 from "../../images/military/extra/military22.jpeg";
+import military023 from "../../images/military/extra/military23.jpeg";
+import military024 from "../../images/military/extra/military24.jpeg";
+import military025 from "../../images/military/extra/military25.jpeg";
+import military026 from "../../images/military/extra/military26.jpeg";
+import military027 from "../../images/military/extra/military27.jpeg";
+import military028 from "../../images/military/extra/military28.jpeg";
+import military029 from "../../images/military/extra/military29.jpeg";
+import military030 from "../../images/military/extra/military30.jpeg";
+import military031 from "../../images/military/extra/military31.jpeg";
+import military032 from "../../images/military/extra/military32.jpeg";
+import military033 from "../../images/military/extra/military33.jpeg";
 
 export const military = {
     id: '7',
@@ -87,30 +84,27 @@ export const military = {
                 military09,
                 military011,
                 military012,
-                // military013,
-                // military014,
-                // military015,
-                // military016,
-                // military017,
-                // military018,
-                // military019,
-                // military020,
-                // military021,
-                // military022,
-                // military023,
-                // military024,
-                // military025,
-                // military026,
-                // military027,
-                // military028,
-                // military029,
-                // military030,
-                // military031,
-                // military032,
-                // military033,
-                // military034,
-                // military035,
-                // military036,
+                military013,
+                military014,
+                military015,
+                military016,
+                military017,
+                military018,
+                military019,
+                military020,
+                military021,
+                military022,
+                military023,
+                military024,
+                military025,
+                military026,
+                military027,
+                military028,
+                military029,
+                military030,
+                military031,
+                military032,
+                military033,
             ]
         }
     ],

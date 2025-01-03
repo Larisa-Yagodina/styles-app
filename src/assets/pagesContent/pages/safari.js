@@ -22,32 +22,28 @@ import safari07 from "../../images/safari/extra/safari7.jpeg";
 import safari08 from "../../images/safari/extra/safari8.jpeg";
 import safari09 from "../../images/safari/extra/safari9.jpeg";
 import safari010 from "../../images/safari/extra/safari10.jpeg";
-// import safari011 from "../../images/safari/extra/safari11.jpeg";
-// import safari012 from "../../images/safari/extra/safari12.jpeg";
-// import safari013 from "../../images/safari/extra/safari13.jpeg";
-// import safari014 from "../../images/safari/extra/safari14.jpeg";
-// import safari015 from "../../images/safari/extra/safari15.jpeg";
-// import safari016 from "../../images/safari/extra/safari16.jpeg";
-// import safari017 from "../../images/safari/extra/safari17.jpeg";
-// import safari018 from "../../images/safari/extra/safari18.jpeg";
-// import safari019 from "../../images/safari/extra/safari19.jpeg";
-// import safari020 from "../../images/safari/extra/safari20.jpeg";
-// import safari021 from "../../images/safari/extra/safari21.jpeg";
-// import safari022 from "../../images/safari/extra/safari22.jpeg";
-// import safari023 from "../../images/safari/extra/safari23.jpeg";
-// import safari024 from "../../images/safari/extra/safari24.jpeg";
-// import safari025 from "../../images/safari/extra/safari25.jpeg";
-// import safari026 from "../../images/safari/extra/safari26.jpeg";
-// import safari027 from "../../images/safari/extra/safari27.jpeg";
-// import safari028 from "../../images/safari/extra/safari28.jpeg";
-// import safari029 from "../../images/safari/extra/safari29.jpeg";
-// import safari030 from "../../images/safari/extra/safari30.jpeg";
-// import safari031 from "../../images/safari/extra/safari31.jpeg";
-// import safari032 from "../../images/safari/extra/safari32.jpeg";
-// import safari033 from "../../images/safari/extra/safari33.jpeg";
-// import safari034 from "../../images/safari/extra/safari34.jpeg";
-// import safari035 from "../../images/safari/extra/safari35.jpeg";
-// import safari036 from "../../images/safari/extra/safari36.jpeg";
+import safari011 from "../../images/safari/extra/safari11.jpeg";
+import safari012 from "../../images/safari/extra/safari12.jpeg";
+import safari013 from "../../images/safari/extra/safari13.jpeg";
+import safari014 from "../../images/safari/extra/safari14.jpeg";
+import safari015 from "../../images/safari/extra/safari15.jpeg";
+import safari016 from "../../images/safari/extra/safari16.jpeg";
+import safari017 from "../../images/safari/extra/safari17.jpeg";
+import safari018 from "../../images/safari/extra/safari18.jpeg";
+import safari019 from "../../images/safari/extra/safari19.jpeg";
+import safari020 from "../../images/safari/extra/safari20.jpeg";
+import safari021 from "../../images/safari/extra/safari21.jpeg";
+import safari022 from "../../images/safari/extra/safari22.jpeg";
+import safari023 from "../../images/safari/extra/safari23.jpeg";
+import safari024 from "../../images/safari/extra/safari24.jpeg";
+import safari025 from "../../images/safari/extra/safari25.jpeg";
+import safari026 from "../../images/safari/extra/safari26.jpeg";
+import safari027 from "../../images/safari/extra/safari27.jpeg";
+import safari028 from "../../images/safari/extra/safari28.jpeg";
+import safari029 from "../../images/safari/extra/safari29.jpeg";
+import safari030 from "../../images/safari/extra/safari30.jpeg";
+import safari031 from "../../images/safari/extra/safari31.jpeg";
+
 
 export const safari = {
     id: '5',
@@ -87,32 +83,27 @@ export const safari = {
                 safari08,
                 safari09,
                 safari010,
-                // safari011,
-                // safari012,
-                // safari013,
-                // safari014,
-                // safari015,
-                // safari016,
-                // safari017,
-                // safari018,
-                // safari019,
-                // safari020,
-                // safari021,
-                // safari022,
-                // safari023,
-                // safari024,
-                // safari025,
-                // safari026,
-                // safari027,
-                // safari028,
-                // safari029,
-                // safari030,
-                // safari031,
-                // safari032,
-                // safari033,
-                // safari034,
-                // safari035,
-                // safari036,
+                safari011,
+                safari012,
+                safari013,
+                safari014,
+                safari015,
+                safari016,
+                safari017,
+                safari018,
+                safari019,
+                safari020,
+                safari021,
+                safari022,
+                safari023,
+                safari024,
+                safari025,
+                safari026,
+                safari027,
+                safari028,
+                safari029,
+                safari030,
+                safari031,
             ]
         }
     ],
