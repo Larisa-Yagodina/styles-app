@@ -26,6 +26,8 @@ export const PAGES = {
     minimalism: 'minimalism',
     safari: 'safari',
     military: 'military',
+    marine: 'marine',
+    preppy: 'preppy',
 }
 
 const NAVIGATION = [
@@ -85,6 +87,16 @@ const NAVIGATION = [
             {
                 segment: PAGES.military,
                 title: 'Military',
+                icon: <DescriptionIcon/>,
+            },
+            {
+                segment: PAGES.preppy,
+                title: 'Preppy',
+                icon: <DescriptionIcon/>,
+            },
+            {
+                segment: PAGES.marine,
+                title: 'Marine',
                 icon: <DescriptionIcon/>,
             },
         ],

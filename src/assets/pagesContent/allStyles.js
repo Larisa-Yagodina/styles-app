@@ -6,6 +6,8 @@ import {dandy} from "./pages/dandy";
 import {jockey} from "./pages/jockey";
 import {military} from "./pages/military";
 import {safari} from "./pages/safari";
+import {preppy} from "./pages/preppy";
+import {marine} from "./pages/marine";
 
 
 export const allStyles = [
@@ -17,4 +19,6 @@ export const allStyles = [
     jockey,
     military,
     safari,
+    preppy,
+    marine,
 ]
