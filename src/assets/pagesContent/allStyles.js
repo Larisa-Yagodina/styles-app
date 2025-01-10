@@ -8,6 +8,10 @@ import {military} from "./pages/military";
 import {safari} from "./pages/safari";
 import {preppy} from "./pages/preppy";
 import {marine} from "./pages/marine";
+import {romantic} from "./pages/romantic";
+import {feminine} from "./pages/femimine";
+import {business} from "./pages/business";
+import {smart} from "./pages/smart";
 
 
 export const allStyles = [
@@ -21,4 +25,8 @@ export const allStyles = [
     safari,
     preppy,
     marine,
+    romantic,
+    feminine,
+    business,
+    smart,
 ]

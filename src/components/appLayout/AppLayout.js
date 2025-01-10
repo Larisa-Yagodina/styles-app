@@ -28,6 +28,10 @@ export const PAGES = {
     military: 'military',
     marine: 'marine',
     preppy: 'preppy',
+    romantic: 'romantic',
+    feminine: 'feminine',
+    business: 'business',
+    smart: 'smart',
 }
 
 const NAVIGATION = [
@@ -99,6 +103,16 @@ const NAVIGATION = [
                 title: 'Marine',
                 icon: <DescriptionIcon/>,
             },
+            {
+                segment: PAGES.business,
+                title: 'Business casual',
+                icon: <DescriptionIcon/>,
+            },
+            {
+                segment: PAGES.smart,
+                title: 'Smart casual',
+                icon: <DescriptionIcon/>,
+            },
         ],
     },
     {
@@ -106,6 +120,16 @@ const NAVIGATION = [
         title: 'Other styles',
         icon: <AutoGraphIcon/>,
         children: [
+            {
+                segment: PAGES.romantic,
+                title: 'Romantic',
+                icon: <DescriptionIcon/>,
+            },
+            {
+                segment: PAGES.feminine,
+                title: 'Feminine',
+                icon: <DescriptionIcon/>,
+            },
             {
                 segment: PAGES.boho,
                 title: 'Boho',
