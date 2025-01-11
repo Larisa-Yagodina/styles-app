@@ -17,6 +17,13 @@ const StylePage = ({stylePageItem}) => {
             <h2>{stylePageItem.title}</h2>
 
             {stylePageItem.blocks.map(block => {
+                if (block.type === 'title') {
+                    return (
+                        <div>
+                            <h2>{block.title}</h2>
+                        </div>
+                    )
+                }
                 if (block.type === 'paragraph') {
                     return (
                         <div>
