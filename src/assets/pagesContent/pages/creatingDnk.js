@@ -10,20 +10,21 @@ import dnk9 from "../../images/dnk/dnk9.JPG";
 import example1 from "../../images/dnk/examples/example1.png"
 import example2 from "../../images/dnk/examples/example2.png"
 import example3 from "../../images/dnk/examples/example3.png"
+import jockey11 from "../../images/dnk/examples/jockey11.png"
+import jockey12 from "../../images/dnk/examples/jockey12.png"
+import marine11 from "../../images/dnk/examples/marine11.png"
+import marine12 from "../../images/dnk/examples/marine12.png"
+import preppy11 from "../../images/dnk/examples/preppy11.png"
+import safari11 from "../../images/dnk/examples/safari11.png"
+import sport11 from "../../images/dnk/examples/sport11.png"
+import grange11 from "../../images/dnk/examples/grange11.png"
 
-import sport02 from "../../images/sport/extra/sport02.jpeg";
 import sport016 from "../../images/sport/extra/sport016.jpeg";
 import sport017 from "../../images/sport/extra/sport017.jpeg";
-import grange04 from "../../images/grange/extra/grange4.jpeg";
 import grange014 from "../../images/grange/extra/grange14.jpeg";
 import grange016 from "../../images/grange/extra/grange16.jpeg";
-import safari13 from "../../images/safari/safari13.jpeg";
 import preppy07 from "../../images/preppy/extra/preppy7.jpeg";
 import preppy031 from "../../images/preppy/extra/preppy31.jpeg";
-import marine1 from "../../images/marine/marine1.jpeg";
-import marine6 from "../../images/marine/marine6.jpeg";
-import jockey2 from "../../images/jockey/jockey2.jpeg";
-import jockey5 from "../../images/jockey/jockey5.jpeg";
 import jockey09 from "../../images/jockey/extra/jockey9.jpeg";
 import jockey014 from "../../images/jockey/extra/jockey14.jpeg";
 
@@ -54,7 +55,7 @@ export const creatingDnk = {
             type: 'photo',
             title: 'Sport chic',
             content: [
-                sport02,
+                sport11,
                 sport016,
                 sport017,
             ]
@@ -63,7 +64,7 @@ export const creatingDnk = {
             type: 'photo',
             title: 'Grange',
             content: [
-                grange04,
+                grange11,
                 grange014,
                 grange016,
             ]
@@ -72,13 +73,14 @@ export const creatingDnk = {
             type: 'photo',
             title: 'Safari',
             content: [
-                safari13,
+                safari11,
             ]
         },
         {
             type: 'photo',
             title: 'Preppy',
             content: [
+                preppy11,
                 preppy07,
                 preppy031,
             ]
@@ -87,16 +89,16 @@ export const creatingDnk = {
             type: 'photo',
             title: 'Marine style',
             content: [
-                marine1,
-                marine6,
+                marine11,
+                marine12,
             ]
         },
         {
             type: 'photo',
             title: 'Jockey',
             content: [
-                jockey2,
-                jockey5,
+                jockey11,
+                jockey12,
                 jockey09,
                 jockey014,
             ]
