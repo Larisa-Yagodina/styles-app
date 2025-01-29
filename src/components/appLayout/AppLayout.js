@@ -32,6 +32,9 @@ export const PAGES = {
     feminine: 'feminine',
     business: 'business',
     smart: 'smart',
+    retro: 'retro',
+    vintage: 'vintage',
+    drama: 'drama',
 }
 
 const NAVIGATION = [
@@ -128,6 +131,21 @@ const NAVIGATION = [
             {
                 segment: PAGES.feminine,
                 title: 'Feminine',
+                icon: <DescriptionIcon/>,
+            },
+            {
+                segment: PAGES.drama,
+                title: 'Drama',
+                icon: <DescriptionIcon/>,
+            },
+            {
+                segment: PAGES.retro,
+                title: 'Retro',
+                icon: <DescriptionIcon/>,
+            },
+            {
+                segment: PAGES.vintage,
+                title: 'Vintage',
                 icon: <DescriptionIcon/>,
             },
             {

@@ -12,6 +12,9 @@ import {romantic} from "./pages/romantic";
 import {feminine} from "./pages/femimine";
 import {business} from "./pages/business";
 import {smart} from "./pages/smart";
+import {retro} from "./pages/retro";
+import {vintage} from "./pages/vintage";
+import {drama} from "./pages/drama";
 
 
 export const allStyles = [
@@ -29,4 +32,7 @@ export const allStyles = [
     feminine,
     business,
     smart,
+    retro,
+    vintage,
+    drama,
 ]
