@@ -45,6 +45,22 @@ const StylePage = ({stylePageItem}) => {
                         </div>
                     )
                 }
+                if (block.type === 'links') {
+                    return (
+                        <div>
+                            <h3>{block.title}</h3>
+                            {block.content.map(el =>
+                                <div>
+                                <a
+                                    href={el.link}
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                > {el.name} </a>
+                                </div>
+                            )}
+                        </div>
+                    )
+                }
                 return null
             })}
 
