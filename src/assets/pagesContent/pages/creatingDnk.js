@@ -9,7 +9,6 @@ import dnk8 from "../../images/dnk/dnk8.JPG";
 import dnk9 from "../../images/dnk/dnk9.JPG";
 import example1 from "../../images/dnk/examples/example1.png"
 import example2 from "../../images/dnk/examples/example2.png"
-import example3 from "../../images/dnk/examples/example3.png"
 import jockey11 from "../../images/dnk/examples/jockey11.png"
 import jockey12 from "../../images/dnk/examples/jockey12.png"
 import marine11 from "../../images/dnk/examples/marine11.png"
@@ -27,6 +26,16 @@ import preppy07 from "../../images/preppy/extra/preppy7.jpeg";
 import preppy031 from "../../images/preppy/extra/preppy31.jpeg";
 import jockey09 from "../../images/jockey/extra/jockey9.jpeg";
 import jockey014 from "../../images/jockey/extra/jockey14.jpeg";
+import preppy1 from "../../images/dnk/examples/preppy1.jpg";
+import example4 from "../../images/dnk/examples/example4.jpg";
+import preppy3 from "../../images/dnk/examples/preppy3.jpg";
+import example5 from "../../images/dnk/examples/example5.jpg";
+import boho1 from "../../images/dnk/examples/boho1.jpg";
+import boho2 from "../../images/dnk/examples/boho2.png"
+import boho3 from "../../images/dnk/examples/boho3.png"
+import boho4 from "../../images/dnk/examples/boho4.png"
+import boho5 from "../../images/dnk/examples/boho5.png"
+import boho6 from "../../images/dnk/examples/boho6.png"
 
 export const creatingDnk = {
     id: '1',
@@ -83,6 +92,8 @@ export const creatingDnk = {
                 preppy11,
                 preppy07,
                 preppy031,
+                preppy1,
+                preppy3,
             ]
         },
         {
@@ -105,11 +116,25 @@ export const creatingDnk = {
         },
         {
             type: 'photo',
+            title: 'Boho',
+            content: [
+                boho1,
+                boho2,
+                boho3,
+                boho4,
+                boho5,
+                boho6,
+
+            ]
+        },
+        {
+            type: 'photo',
             title: 'mood board',
             content: [
                 example1,
                 example2,
-                example3,
+                example4,
+                example5,
             ]
         },
     ],

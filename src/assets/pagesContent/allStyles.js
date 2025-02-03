@@ -15,11 +15,17 @@ import {smart} from "./pages/smart";
 import {retro} from "./pages/retro";
 import {vintage} from "./pages/vintage";
 import {drama} from "./pages/drama";
+import {mixingStyles} from "./pages/mixingStyles";
+import {boho} from "./pages/boho";
+import {classic} from "./pages/classic";
+import {deconstructivism} from "./pages/deconstructivism";
+import {conceptualism} from "./pages/conceptualism";
 
 
 export const allStyles = [
     creatingDnk,
     basicStyles,
+    mixingStyles,
     sportChic,
     grange,
     dandy,
@@ -35,4 +41,8 @@ export const allStyles = [
     retro,
     vintage,
     drama,
+    boho,
+    classic,
+    deconstructivism,
+    conceptualism,
 ]

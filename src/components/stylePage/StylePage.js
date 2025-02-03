@@ -13,27 +13,27 @@ const StylePage = ({stylePageItem}) => {
     }
 
     return (
-        <div className='pageBox'>
+        <div>
             <h2>{stylePageItem.title}</h2>
 
             {stylePageItem.blocks.map(block => {
                 if (block.type === 'title') {
                     return (
-                        <div>
+                        <div className='textContent'>
                             <h2>{block.title}</h2>
                         </div>
                     )
                 }
                 if (block.type === 'paragraph') {
                     return (
-                        <div>
+                        <div className='textContent'>
                             {block.content.map(el => <p> {el} </p>)}
                         </div>
                     )
                 }
                 if (block.type === 'list') {
                     return (
-                        <div>
+                        <div className='textContent'>
                             {block.content.map(el => <li> {el} </li>)}
                         </div>
                     )

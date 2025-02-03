@@ -15,6 +15,10 @@ h1 {
     padding: 0 30px 10px 30px;
 }
 
+.textContent {
+    padding: 0 35px;
+}
+
 .dropdownsWrapper {
     margin-right: 50px;
     display: flex;

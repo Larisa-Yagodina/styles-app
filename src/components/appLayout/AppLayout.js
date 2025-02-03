@@ -18,12 +18,11 @@ import {MODAL_TYPES} from "../../ui/modalWindow/ModalWindow";
 export const PAGES = {
     creatingDNK: 'creatingDNK',
     basicStylesReview: 'basicStylesReview',
+    mixingStyles: 'mixingStyles',
     sport: 'sport',
     grange: 'grange',
     dandy: 'dandy',
     jockey: 'jockey',
-    boho: 'boho',
-    minimalism: 'minimalism',
     safari: 'safari',
     military: 'military',
     marine: 'marine',
@@ -35,6 +34,14 @@ export const PAGES = {
     retro: 'retro',
     vintage: 'vintage',
     drama: 'drama',
+    ethnic: 'ethnic',
+    boho: 'boho',
+    classic: 'classic',
+    businessCasual: 'businessCasual',
+    smartCasual: 'smartCasual',
+    minimalism: 'minimalism',
+    deconstructivism: 'deconstructivism',
+    conceptualism: 'conceptualism',
 }
 
 const NAVIGATION = [
@@ -46,13 +53,17 @@ const NAVIGATION = [
         kind: 'page',
         segment: 'creatingDNK',
         title: 'Creating DNK',
-        // children: <StylePage stylePageItem={allStyles[0]} />,
         icon: <ColorLensOutlinedIcon/>,
     },
     {
         segment: PAGES.basicStylesReview,
         title: 'Basic styles review',
         icon: <ListAltOutlinedIcon/>,
+    },
+    {
+        segment: PAGES.mixingStyles,
+        title: 'Mixing styles',
+        icon: <AutoGraphIcon/>,
     },
     {
         kind: 'divider',
@@ -154,8 +165,18 @@ const NAVIGATION = [
                 icon: <DescriptionIcon/>,
             },
             {
-                segment: PAGES.minimalism,
-                title: 'Minimalism',
+                segment: PAGES.classic,
+                title: 'Classic',
+                icon: <DescriptionIcon/>,
+            },
+            {
+                segment: PAGES.deconstructivism,
+                title: 'Deconstructivism',
+                icon: <DescriptionIcon/>,
+            },
+            {
+                segment: PAGES.conceptualism,
+                title: 'Conceptualism',
                 icon: <DescriptionIcon/>,
             },
         ],
