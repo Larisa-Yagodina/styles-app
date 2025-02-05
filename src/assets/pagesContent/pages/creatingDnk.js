@@ -36,6 +36,9 @@ import boho3 from "../../images/dnk/examples/boho3.png"
 import boho4 from "../../images/dnk/examples/boho4.png"
 import boho5 from "../../images/dnk/examples/boho5.png"
 import boho6 from "../../images/dnk/examples/boho6.png"
+import boho02 from "../../images/boho/extra/boho2.jpeg";
+import boho06 from "../../images/boho/extra/boho6.jpeg";
+
 
 export const creatingDnk = {
     id: '1',
@@ -94,6 +97,8 @@ export const creatingDnk = {
                 preppy031,
                 preppy1,
                 preppy3,
+                example4,
+                example5,
             ]
         },
         {
@@ -124,7 +129,8 @@ export const creatingDnk = {
                 boho4,
                 boho5,
                 boho6,
-
+                boho02,
+                boho06,
             ]
         },
         {
@@ -133,8 +139,6 @@ export const creatingDnk = {
             content: [
                 example1,
                 example2,
-                example4,
-                example5,
             ]
         },
     ],

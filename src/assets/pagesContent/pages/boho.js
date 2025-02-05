@@ -19,22 +19,22 @@ import boho18 from "../../images/boho/boho18.jpeg";
 import boho19 from "../../images/boho/boho19.jpeg";
 import boho20 from "../../images/boho/boho20.jpeg";
 
-// import boho01 from "../../images/boho/extra/boho1.jpeg";
-// import boho02 from "../../images/boho/extra/boho2.jpeg";
-// import boho03 from "../../images/boho/extra/boho3.jpeg";
-// import boho04 from "../../images/boho/extra/boho4.jpeg";
-// import boho05 from "../../images/boho/extra/boho5.jpeg";
-// import boho06 from "../../images/boho/extra/boho6.jpeg";
-// import boho07 from "../../images/boho/extra/boho7.jpeg";
-// import boho08 from "../../images/boho/extra/boho8.jpeg";
-// import boho09 from "../../images/boho/extra/boho9.jpeg";
-// import boho010 from "../../images/boho/extra/boho10.jpeg";
-// import boho011 from "../../images/boho/extra/boho11.jpeg";
-// import boho012 from "../../images/boho/extra/boho12.jpeg";
-// import boho013 from "../../images/boho/extra/boho13.jpeg";
-// import boho014 from "../../images/boho/extra/boho14.jpeg";
-// import boho015 from "../../images/boho/extra/boho15.jpeg";
-// import boho016 from "../../images/boho/extra/boho16.jpeg";
+import boho01 from "../../images/boho/extra/boho1.jpeg";
+import boho02 from "../../images/boho/extra/boho2.jpeg";
+import boho03 from "../../images/boho/extra/boho3.jpeg";
+import boho04 from "../../images/boho/extra/boho4.jpeg";
+import boho05 from "../../images/boho/extra/boho5.jpeg";
+import boho06 from "../../images/boho/extra/boho6.jpeg";
+import boho07 from "../../images/boho/extra/boho7.jpeg";
+import boho08 from "../../images/boho/extra/boho8.jpeg";
+import boho09 from "../../images/boho/extra/boho9.jpeg";
+import boho010 from "../../images/boho/extra/boho10.jpeg";
+import boho011 from "../../images/boho/extra/boho11.jpeg";
+import boho012 from "../../images/boho/extra/boho12.jpeg";
+import boho013 from "../../images/boho/extra/boho13.jpeg";
+import boho014 from "../../images/boho/extra/boho14.jpeg";
+import boho015 from "../../images/boho/extra/boho15.jpeg";
+import boho016 from "../../images/boho/extra/boho16.jpeg";
 // import boho017 from "../../images/boho/extra/boho17.jpeg";
 // import boho018 from "../../images/boho/extra/boho18.jpeg";
 // import boho019 from "../../images/boho/extra/boho19.jpeg";
@@ -89,22 +89,22 @@ export const boho = {
             type: 'photo',
             title: 'Примеры',
             content: [
-                // boho01,
-                // boho02,
-                // boho03,
-                // boho04,
-                // boho05,
-                // boho06,
-                // boho07,
-                // boho08,
-                // boho09,
-                // boho010,
-                // boho011,
-                // boho012,
-                // boho013,
-                // boho014,
-                // boho015,
-                // boho016,
+                boho01,
+                boho02,
+                boho03,
+                boho04,
+                boho05,
+                boho06,
+                boho07,
+                boho08,
+                boho09,
+                boho010,
+                boho011,
+                boho012,
+                boho013,
+                boho014,
+                boho015,
+                boho016,
                 // boho017,
                 // boho018,
                 // boho019,
