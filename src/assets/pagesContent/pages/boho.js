@@ -35,24 +35,51 @@ import boho013 from "../../images/boho/extra/boho13.jpeg";
 import boho014 from "../../images/boho/extra/boho14.jpeg";
 import boho015 from "../../images/boho/extra/boho15.jpeg";
 import boho016 from "../../images/boho/extra/boho16.jpeg";
-// import boho017 from "../../images/boho/extra/boho17.jpeg";
-// import boho018 from "../../images/boho/extra/boho18.jpeg";
-// import boho019 from "../../images/boho/extra/boho19.jpeg";
-// import boho020 from "../../images/boho/extra/boho20.jpeg";
-// import boho021 from "../../images/boho/extra/boho21.jpeg";
-// import boho022 from "../../images/boho/extra/boho22.jpeg";
-// import boho023 from "../../images/boho/extra/boho23.jpeg";
-// import boho024 from "../../images/boho/extra/boho24.jpeg";
-// import boho025 from "../../images/boho/extra/boho25.jpeg";
-// import boho026 from "../../images/boho/extra/boho26.jpeg";
-// import boho027 from "../../images/boho/extra/boho27.jpeg";
-// import boho028 from "../../images/boho/extra/boho28.jpeg";
-// import boho029 from "../../images/boho/extra/boho29.jpeg";
-// import boho030 from "../../images/boho/extra/boho30.jpeg";
-// import boho031 from "../../images/boho/extra/boho31.jpeg";
-// import boho032 from "../../images/boho/extra/boho32.jpeg";
-// import boho033 from "../../images/boho/extra/boho33.jpeg";
 
+import boho001 from "../../images/boho/extra/items/boho1.jpeg";
+import boho002 from "../../images/boho/extra/items/boho2.jpeg";
+import boho003 from "../../images/boho/extra/items/boho3.jpeg";
+import boho004 from "../../images/boho/extra/items/boho4.jpeg";
+import boho005 from "../../images/boho/extra/items/boho5.jpeg";
+import boho006 from "../../images/boho/extra/items/boho6.jpeg";
+import boho007 from "../../images/boho/extra/items/boho7.jpeg";
+import boho008 from "../../images/boho/extra/items/boho8.jpeg";
+import boho009 from "../../images/boho/extra/items/boho9.jpeg";
+import boho0010 from "../../images/boho/extra/items/boho10.jpeg";
+import boho0011 from "../../images/boho/extra/items/boho11.jpeg";
+import boho0012 from "../../images/boho/extra/items/boho12.jpeg";
+import boho0013 from "../../images/boho/extra/items/boho13.jpeg";
+import boho0014 from "../../images/boho/extra/items/boho14.jpeg";
+import boho0015 from "../../images/boho/extra/items/boho15.jpeg";
+import boho0016 from "../../images/boho/extra/items/boho16.jpeg";
+import boho0017 from "../../images/boho/extra/items/boho17.jpeg";
+import boho0018 from "../../images/boho/extra/items/boho18.jpeg";
+import boho0019 from "../../images/boho/extra/items/boho19.jpeg";
+import boho0020 from "../../images/boho/extra/items/boho20.jpeg";
+import boho0021 from "../../images/boho/extra/items/boho21.jpeg";
+import boho0022 from "../../images/boho/extra/items/boho22.jpeg";
+import boho0023 from "../../images/boho/extra/items/boho23.jpeg";
+import boho0024 from "../../images/boho/extra/items/boho24.jpeg";
+import boho0025 from "../../images/boho/extra/items/boho25.jpeg";
+import boho0026 from "../../images/boho/extra/items/boho26.jpeg";
+import boho0027 from "../../images/boho/extra/items/boho27.jpeg";
+import boho0028 from "../../images/boho/extra/items/boho28.jpeg";
+import boho0029 from "../../images/boho/extra/items/boho29.jpeg";
+import boho0030 from "../../images/boho/extra/items/boho30.jpeg";
+import boho0031 from "../../images/boho/extra/items/boho31.jpeg";
+import boho0032 from "../../images/boho/extra/items/boho32.jpeg";
+import boho0033 from "../../images/boho/extra/items/boho33.jpeg";
+import boho0034 from "../../images/boho/extra/items/boho34.jpeg";
+import boho0035 from "../../images/boho/extra/items/boho35.jpeg";
+import boho0036 from "../../images/boho/extra/items/boho36.jpeg";
+import boho0037 from "../../images/boho/extra/items/boho37.jpeg";
+import boho0038 from "../../images/boho/extra/items/boho38.jpeg";
+import boho0039 from "../../images/boho/extra/items/boho39.jpeg";
+import boho0040 from "../../images/boho/extra/items/boho40.jpeg";
+import boho0041 from "../../images/boho/extra/items/boho41.jpeg";
+import boho0042 from "../../images/boho/extra/items/boho42.jpeg";
+import boho0043 from "../../images/boho/extra/items/boho43.jpeg";
+import boho0044 from "../../images/boho/extra/items/boho44.jpeg";
 
 export const boho = {
     id: '5',
@@ -105,23 +132,51 @@ export const boho = {
                 boho014,
                 boho015,
                 boho016,
-                // boho017,
-                // boho018,
-                // boho019,
-                // boho020,
-                // boho021,
-                // boho022,
-                // boho023,
-                // boho024,
-                // boho025,
-                // boho026,
-                // boho027,
-                // boho028,
-                // boho029,
-                // boho030,
-                // boho031,
-                // boho032,
-                // boho033,
+                boho001,
+                boho002,
+                boho003,
+                boho004,
+                boho005,
+                boho006,
+                boho007,
+                boho008,
+                boho009,
+                boho0010,
+                boho0011,
+                boho0012,
+                boho0013,
+                boho0014,
+                boho0015,
+                boho0016,
+                boho0017,
+                boho0018,
+                boho0019,
+                boho0020,
+                boho0021,
+                boho0022,
+                boho0023,
+                boho0024,
+                boho0025,
+                boho0026,
+                boho0027,
+                boho0028,
+                boho0029,
+                boho0030,
+                boho0031,
+                boho0032,
+                boho0033,
+                boho0034,
+                boho0035,
+                boho0036,
+                boho0037,
+                boho0038,
+                boho0039,
+                boho0040,
+                boho0041,
+                boho0042,
+                boho0043,
+                boho0044,
+
             ]
         }
     ],
