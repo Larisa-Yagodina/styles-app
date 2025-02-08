@@ -1,8 +1,6 @@
 import React, {useState} from 'react';
 import {useDispatch, useSelector} from "react-redux";
 import {getImages, getIndex} from "../../redux/selectors";
-import NavigateBeforeIcon from '@mui/icons-material/NavigateBefore';
-import NavigateNextIcon from '@mui/icons-material/NavigateNext';
 import CloseIcon from '@mui/icons-material/Close';
 import {modalActions} from "../../redux/reduces";
 
@@ -24,7 +22,7 @@ const ImageViewer = () => {
     const dispatch = useDispatch();
 
     const onClose = () => {
-            dispatch(modalActions.closeModal());
+        dispatch(modalActions.closeModal());
     };
 
     return (
@@ -33,23 +31,31 @@ const ImageViewer = () => {
                 className='close-btn'
                 onClick={onClose}
             >
-                <CloseIcon />
+                <CloseIcon/>
             </button>
-            <button
-                className='navigation_before'
+            <div
+                className={indexShowed !== 0 ? 'navigation before' : 'navigation_before disabled'}
                 onClick={onBefore}
-                disabled={indexShowed === 0}
             >
-                <NavigateBeforeIcon/>
-            </button>
+                {
+                    indexShowed !== 0 &&
+                    <div>
+                        {'<'}
+                    </div>
+                }
+
+            </div>
             <img className={'image_in_modal'} src={images[indexShowed]} alt=""/>
-            <button
-                className='navigation_next'
+            <div
+                className={indexShowed !== images.length - 1 ? 'navigation next' : 'navigation_next disabled'}
                 onClick={onNext}
-                disabled={indexShowed === images.length - 1}
-            >
-                <NavigateNextIcon/>
-            </button>
+            > {
+                indexShowed !== images.length - 1 &&
+                <div>
+                    {'>'}
+                </div>
+            }
+            </div>
         </div>
     );
 };

@@ -46,30 +46,34 @@ h1 {
     position: relative;
 }
 
-.navigation_before {
-    background-color: rgba(208, 206, 206, 0.35);
+.navigation {
+    background-color: rgba(246, 248, 248, 0.01);
+    color: grey;
+    font-size: 20px;
     position: absolute;
-    border-radius: 7px;
-    top: 0;
-    left: -3px;
     bottom: 0;
     border: none;
-    width: 24px;
-    padding: 0;
+    width: 100px;
     margin: 0;
+    display: flex;
 }
 
-.navigation_next {
-    background-color: rgba(208, 206, 206, 0.35);
-    position: absolute;
-    border-radius: 7px;
+.before {
+    top: 0;
+    left: 0;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.next {
     top: 22px;
-    right: -3px;
-    bottom: 0;
-    border: none;
-    width: 24px;
-    padding: 0;
-    margin: 0;
+    right: 0;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.disabled {
+    pointer-events: none;
 }
 
 .close-btn {

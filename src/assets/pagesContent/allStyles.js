@@ -20,6 +20,7 @@ import {boho} from "./pages/boho";
 import {classic} from "./pages/classic";
 import {deconstructivism} from "./pages/deconstructivism";
 import {conceptualism} from "./pages/conceptualism";
+import {howToStyleBase} from "./pages/howToStyleBase";
 
 
 export const allStyles = [
@@ -45,4 +46,5 @@ export const allStyles = [
     classic,
     deconstructivism,
     conceptualism,
+    howToStyleBase,
 ]

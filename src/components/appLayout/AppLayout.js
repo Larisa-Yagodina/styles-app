@@ -18,6 +18,7 @@ import {MODAL_TYPES} from "../../ui/modalWindow/ModalWindow";
 export const PAGES = {
     creatingDNK: 'creatingDNK',
     basicStylesReview: 'basicStylesReview',
+    howToStyleBase: 'howToStyleBase',
     mixingStyles: 'mixingStyles',
     sport: 'sport',
     grange: 'grange',
@@ -59,6 +60,11 @@ const NAVIGATION = [
         segment: PAGES.basicStylesReview,
         title: 'Basic styles review',
         icon: <ListAltOutlinedIcon/>,
+    },
+    {
+        segment: PAGES.howToStyleBase,
+        title: 'Styling base',
+        icon: <ColorLensOutlinedIcon/>,
     },
     {
         segment: PAGES.mixingStyles,
