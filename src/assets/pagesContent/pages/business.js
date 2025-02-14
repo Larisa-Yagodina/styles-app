@@ -1,15 +1,25 @@
-// import business1 from "../../images/business/business1.jpeg";
-// import business2 from "../../images/business/business2.jpeg";
-// import business3 from "../../images/business/business3.jpeg";
-// import business4 from "../../images/business/business4.jpeg";
-// import business5 from "../../images/business/business5.jpeg";
-// import business6 from "../../images/business/business6.jpeg";
-// import business7 from "../../images/business/business7.jpeg";
-// import business8 from "../../images/business/business8.jpeg";
-// import business9 from "../../images/business/business9.jpeg";
-// import business10 from "../../images/business/business10.jpeg";
-// import business11 from "../../images/business/business11.jpeg";
-// import business12 from "../../images/business/business12.jpeg";
+import business1 from "../../images/business/business1.jpeg";
+import business2 from "../../images/business/business2.jpeg";
+import business3 from "../../images/business/business3.jpeg";
+import business4 from "../../images/business/business4.jpeg";
+import business5 from "../../images/business/business5.jpeg";
+import business6 from "../../images/business/business6.jpeg";
+import business7 from "../../images/business/business7.jpeg";
+import business8 from "../../images/business/business8.jpeg";
+import business9 from "../../images/business/business9.jpeg";
+import business10 from "../../images/business/business10.jpeg";
+import business11 from "../../images/business/business11.jpeg";
+import business12 from "../../images/business/business12.jpeg";
+import business13 from "../../images/business/business13.jpeg";
+import business14 from "../../images/business/business14.jpeg";
+import business15 from "../../images/business/business15.jpeg";
+import business16 from "../../images/business/business16.jpeg";
+import business17 from "../../images/business/business17.jpeg";
+import business18 from "../../images/business/business18.jpeg";
+import business19 from "../../images/business/business19.jpeg";
+import business20 from "../../images/business/business20.jpeg";
+
+
 //
 // import business01 from "../../images/business/extra/business1.jpeg";
 // import business02 from "../../images/business/extra/business2.jpeg";
@@ -55,18 +65,26 @@ export const business = {
             type: 'photo',
             title: 'Нюансы',
             content: [
-                // business1,
-                // business2,
-                // business3,
-                // business4,
-                // business5,
-                // business6,
-                // business7,
-                // business8,
-                // business9,
-                // business10,
-                // business11,
-                // business12,
+                business1,
+                business2,
+                business3,
+                business4,
+                business5,
+                business6,
+                business7,
+                business8,
+                business9,
+                business10,
+                business11,
+                business12,
+                business13,
+                business14,
+                business15,
+                business16,
+                business17,
+                business18,
+                business19,
+                business20,
             ]
         },
         {
