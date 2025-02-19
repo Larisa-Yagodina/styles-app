@@ -5,7 +5,6 @@ import * as React from "react";
 
 export function PageContent({pathname}) {
 
-    console.log('Pathname - ' + pathname)
 
     return (
         <Box

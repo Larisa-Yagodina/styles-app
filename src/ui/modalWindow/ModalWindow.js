@@ -33,7 +33,6 @@ export default function ModalWindow() {
 
     const open = useSelector(getIsOpenModal);
     const type = useSelector(getModalType)
-    console.log('TYPE: ' + type)
 
     const isAuth = useSelector(getIsAuth);
     const dispatch = useDispatch();
