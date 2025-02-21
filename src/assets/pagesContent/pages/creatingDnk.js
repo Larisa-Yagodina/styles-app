@@ -39,6 +39,23 @@ import boho6 from "../../images/dnk/examples/boho6.png"
 import boho02 from "../../images/boho/extra/boho2.jpeg";
 import boho06 from "../../images/boho/extra/boho6.jpeg";
 
+import example6 from "../../images/dnk/examples/example6.jpg";
+import example7 from "../../images/dnk/examples/example7.jpg";
+import example8 from "../../images/dnk/examples/example8.jpg";
+import example9 from "../../images/dnk/examples/example9.jpg";
+import example10 from "../../images/dnk/examples/example10.jpg";
+import example11 from "../../images/dnk/examples/example11.jpg";
+import example12 from "../../images/dnk/examples/example12.jpg";
+import example13 from "../../images/dnk/examples/example13.jpg";
+import example14 from "../../images/dnk/examples/example14.jpg";
+import example15 from "../../images/dnk/examples/example15.jpg";
+import example16 from "../../images/dnk/examples/example16.jpg";
+import example17 from "../../images/dnk/examples/example17.jpg";
+import example18 from "../../images/dnk/examples/example18.jpg";
+import example19 from "../../images/dnk/examples/example19.jpg";
+import example20 from "../../images/dnk/examples/example20.jpg";
+import example21 from "../../images/dnk/examples/example21.jpg";
+
 
 export const creatingDnk = {
     id: '1',
@@ -65,6 +82,24 @@ export const creatingDnk = {
         },
         {
             type: 'photo',
+            title: 'Smart casual',
+            content: [
+                example2,
+                example10,
+                example17,
+                example11,
+                example12,
+                example13,
+                example14,
+                example15,
+                example16,
+                example18,
+                example19,
+                example21,
+            ]
+        },
+        {
+            type: 'photo',
             title: 'Sport chic',
             content: [
                 sport11,
@@ -74,11 +109,12 @@ export const creatingDnk = {
         },
         {
             type: 'photo',
-            title: 'Grange',
+            title: 'Jockey',
             content: [
-                grange11,
-                grange014,
-                grange016,
+                jockey11,
+                jockey12,
+                jockey09,
+                jockey014,
             ]
         },
         {
@@ -86,6 +122,33 @@ export const creatingDnk = {
             title: 'Safari',
             content: [
                 safari11,
+                example20,
+            ]
+        },
+        {
+            type: 'photo',
+            title: 'Boho',
+            content: [
+                boho1,
+                boho2,
+                boho3,
+                boho4,
+                boho5,
+                boho6,
+                boho02,
+                boho06,
+                example6,
+                example7,
+                example8,
+                example9,
+            ]
+        },
+        {
+            type: 'photo',
+            title: 'Marine style',
+            content: [
+                marine11,
+                marine12,
             ]
         },
         {
@@ -103,34 +166,11 @@ export const creatingDnk = {
         },
         {
             type: 'photo',
-            title: 'Marine style',
+            title: 'Grange',
             content: [
-                marine11,
-                marine12,
-            ]
-        },
-        {
-            type: 'photo',
-            title: 'Jockey',
-            content: [
-                jockey11,
-                jockey12,
-                jockey09,
-                jockey014,
-            ]
-        },
-        {
-            type: 'photo',
-            title: 'Boho',
-            content: [
-                boho1,
-                boho2,
-                boho3,
-                boho4,
-                boho5,
-                boho6,
-                boho02,
-                boho06,
+                grange11,
+                grange014,
+                grange016,
             ]
         },
         {
@@ -138,7 +178,6 @@ export const creatingDnk = {
             title: 'mood board',
             content: [
                 example1,
-                example2,
             ]
         },
     ],
