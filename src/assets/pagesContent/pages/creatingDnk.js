@@ -55,6 +55,9 @@ import example18 from "../../images/dnk/examples/example18.jpg";
 import example19 from "../../images/dnk/examples/example19.jpg";
 import example20 from "../../images/dnk/examples/example20.jpg";
 import example21 from "../../images/dnk/examples/example21.jpg";
+import example22 from "../../images/dnk/examples/example22.jpg";
+import example23 from "../../images/dnk/examples/example23.jpg";
+import example24 from "../../images/dnk/examples/example24.jpg";
 
 
 export const creatingDnk = {
@@ -178,6 +181,9 @@ export const creatingDnk = {
             title: 'mood board',
             content: [
                 example1,
+                example22,
+                example23,
+                example24,
             ]
         },
     ],
