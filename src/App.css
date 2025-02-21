@@ -40,6 +40,7 @@ h1 {
     margin: 0 5px 5px 5px;
     height: 350px;
     transition: 1s;
+    cursor: pointer;
 }
 
 .images_view_wrapper {
@@ -63,6 +64,7 @@ h1 {
     left: 0;
     justify-content: flex-start;
     align-items: center;
+    cursor: pointer;
 }
 
 .next {
@@ -70,6 +72,7 @@ h1 {
     right: 0;
     justify-content: flex-end;
     align-items: center;
+    cursor: pointer;
 }
 
 .disabled {
@@ -86,6 +89,7 @@ h1 {
     padding: 0;
     margin: 0;
     background-color: rgba(208, 206, 206, 0.35);
+    cursor: pointer;
 }
 
 .photo-block {
