@@ -176,6 +176,11 @@ const NAVIGATION = [
                 icon: <DescriptionIcon/>,
             },
             {
+                segment: PAGES.minimalism,
+                title: 'Minimalism',
+                icon: <DescriptionIcon/>,
+            },
+            {
                 segment: PAGES.deconstructivism,
                 title: 'Deconstructivism',
                 icon: <DescriptionIcon/>,

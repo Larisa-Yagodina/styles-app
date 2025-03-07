@@ -21,6 +21,7 @@ import {classic} from "./pages/classic";
 import {deconstructivism} from "./pages/deconstructivism";
 import {conceptualism} from "./pages/conceptualism";
 import {howToStyleBase} from "./pages/howToStyleBase";
+import {minimalism} from "./pages/minimalizm";
 
 
 export const allStyles = [
@@ -44,6 +45,7 @@ export const allStyles = [
     drama,
     boho,
     classic,
+    minimalism,
     deconstructivism,
     conceptualism,
     howToStyleBase,
