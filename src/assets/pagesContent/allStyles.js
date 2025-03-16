@@ -22,6 +22,10 @@ import {deconstructivism} from "./pages/deconstructivism";
 import {conceptualism} from "./pages/conceptualism";
 import {howToStyleBase} from "./pages/howToStyleBase";
 import {minimalism} from "./pages/minimalizm";
+import {jewelry} from "./pages/jewelry";
+import {bags} from "./pages/bags";
+import {shoes} from "./pages/shoes";
+
 
 
 export const allStyles = [
@@ -49,4 +53,7 @@ export const allStyles = [
     deconstructivism,
     conceptualism,
     howToStyleBase,
+    jewelry,
+    bags,
+    shoes
 ]

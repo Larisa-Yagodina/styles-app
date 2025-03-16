@@ -43,6 +43,9 @@ export const PAGES = {
     minimalism: 'minimalism',
     deconstructivism: 'deconstructivism',
     conceptualism: 'conceptualism',
+    jewelry: 'jewelry',
+    shoes: 'shoes',
+    bags: 'bags',
 }
 
 const NAVIGATION = [
@@ -188,6 +191,28 @@ const NAVIGATION = [
             {
                 segment: PAGES.conceptualism,
                 title: 'Conceptualism',
+                icon: <DescriptionIcon/>,
+            },
+        ],
+    },
+    {
+        segment: 'stylesDetails',
+        title: 'Styles details',
+        icon: <AutoGraphIcon/>,
+        children: [
+            {
+                segment: PAGES.bags,
+                title: 'Bags',
+                icon: <DescriptionIcon/>,
+            },
+            {
+                segment: PAGES.shoes,
+                title: 'Shoes',
+                icon: <DescriptionIcon/>,
+            },
+            {
+                segment: PAGES.jewelry,
+                title: 'Jewelry',
                 icon: <DescriptionIcon/>,
             },
         ],
